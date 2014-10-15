@@ -3,6 +3,78 @@
 $vendorDir = dirname(__DIR__);
 
 return array (
+  'kartik-v/yii2-social' => 
+  array (
+    'name' => 'kartik-v/yii2-social',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@kartik/social' => $vendorDir . '/kartik-v/yii2-social',
+    ),
+  ),
+  'kartik-v/yii2-widgets' => 
+  array (
+    'name' => 'kartik-v/yii2-widgets',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@kartik/widgets' => $vendorDir . '/kartik-v/yii2-widgets',
+    ),
+  ),
+  'kartik-v/yii2-datecontrol' => 
+  array (
+    'name' => 'kartik-v/yii2-datecontrol',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@kartik/datecontrol' => $vendorDir . '/kartik-v/yii2-datecontrol',
+    ),
+  ),
+  'kartik-v/yii2-helpers' => 
+  array (
+    'name' => 'kartik-v/yii2-helpers',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@kartik/helpers' => $vendorDir . '/kartik-v/yii2-helpers',
+    ),
+  ),
+  'kartik-v/yii2-password' => 
+  array (
+    'name' => 'kartik-v/yii2-password',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@kartik/password' => $vendorDir . '/kartik-v/yii2-password',
+    ),
+  ),
+  'pfarrer/yii2-email-obfuscator' => 
+  array (
+    'name' => 'pfarrer/yii2-email-obfuscator',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@pfarrer/yii2/email' => $vendorDir . '/pfarrer/yii2-email-obfuscator',
+    ),
+  ),
+  'philippfrenzel/yii2fullcalendar' => 
+  array (
+    'name' => 'philippfrenzel/yii2fullcalendar',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@yii2fullcalendar' => $vendorDir . '/philippfrenzel/yii2fullcalendar',
+    ),
+  ),
+  'yiisoft/yii2-jui' => 
+  array (
+    'name' => 'yiisoft/yii2-jui',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@yii/jui' => $vendorDir . '/yiisoft/yii2-jui',
+    ),
+  ),
   'yiisoft/yii2-swiftmailer' => 
   array (
     'name' => 'yiisoft/yii2-swiftmailer',
@@ -57,42 +129,6 @@ return array (
       '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker',
     ),
   ),
-  'kartik-v/yii2-social' => 
-  array (
-    'name' => 'kartik-v/yii2-social',
-    'version' => '9999999-dev',
-    'alias' => 
-    array (
-      '@kartik' => $vendorDir . '/kartik-v/yii2-social',
-    ),
-  ),
-  'kartik-v/yii2-widgets' => 
-  array (
-    'name' => 'kartik-v/yii2-widgets',
-    'version' => '9999999-dev',
-    'alias' => 
-    array (
-      '@kartik' => $vendorDir . '/kartik-v/yii2-widgets',
-    ),
-  ),
-  'kartik-v/yii2-datecontrol' => 
-  array (
-    'name' => 'kartik-v/yii2-datecontrol',
-    'version' => '9999999-dev',
-    'alias' => 
-    array (
-      '@kartik' => $vendorDir . '/kartik-v/yii2-datecontrol',
-    ),
-  ),
-  'kartik-v/yii2-helpers' => 
-  array (
-    'name' => 'kartik-v/yii2-helpers',
-    'version' => '9999999-dev',
-    'alias' => 
-    array (
-      '@kartik' => $vendorDir . '/kartik-v/yii2-helpers',
-    ),
-  ),
   'miloschuman/yii2-highcharts-widget' => 
   array (
     'name' => 'miloschuman/yii2-highcharts-widget',
@@ -100,42 +136,6 @@ return array (
     'alias' => 
     array (
       '@miloschuman/highcharts' => $vendorDir . '/miloschuman/yii2-highcharts-widget/src',
-    ),
-  ),
-  'kartik-v/yii2-password' => 
-  array (
-    'name' => 'kartik-v/yii2-password',
-    'version' => '9999999-dev',
-    'alias' => 
-    array (
-      '@kartik' => $vendorDir . '/kartik-v/yii2-password',
-    ),
-  ),
-  'pfarrer/yii2-email-obfuscator' => 
-  array (
-    'name' => 'pfarrer/yii2-email-obfuscator',
-    'version' => '9999999-dev',
-    'alias' => 
-    array (
-      '@pfarrer/yii2/email' => $vendorDir . '/pfarrer/yii2-email-obfuscator',
-    ),
-  ),
-  'yiisoft/yii2-jui' => 
-  array (
-    'name' => 'yiisoft/yii2-jui',
-    'version' => '2.0.0.0-beta',
-    'alias' => 
-    array (
-      '@yii/jui' => $vendorDir . '/yiisoft/yii2-jui',
-    ),
-  ),
-  'philippfrenzel/yii2fullcalendar' => 
-  array (
-    'name' => 'philippfrenzel/yii2fullcalendar',
-    'version' => '9999999-dev',
-    'alias' => 
-    array (
-      '@yii2fullcalendar' => $vendorDir . '/philippfrenzel/yii2fullcalendar',
     ),
   ),
 );
