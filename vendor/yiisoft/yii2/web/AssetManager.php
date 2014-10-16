@@ -382,6 +382,8 @@ class AssetManager extends Component
 
         
         if (!is_string($path) || ($src = realpath($path)) === false) {
+            print_r($path);
+            exit;
             throw new InvalidParamException("The file or directory to be published does not exist: $path");
         }
 
