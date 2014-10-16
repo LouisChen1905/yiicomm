@@ -25,7 +25,11 @@
         "kartik-v/yii2-password": "dev-master",
         "pfarrer/yii2-email-obfuscator": "dev-master",
         "philippfrenzel/yii2fullcalendar": "dev-master",
-        "bowser/jquery": "dev-master"
+        "bower-asset/jquery": "@stable",
+		"bower-asset/bootstrap": "@stable",
+		"bower-asset/jquery-ui": "@stable",
+		"bower-asset/jquery.inputmask": "@stable",
+		"bower-asset/punycode": "@stable"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
@@ -35,5 +39,11 @@
     },
     "config": {
         "process-timeout": 1800
-    }
+    },
+	"extra": {
+		"asset-installer-paths": {
+			"npm-asset-library": "vendor/npm",
+			"bower-asset-library": "vendor/bower"
+		}
+	}
 }

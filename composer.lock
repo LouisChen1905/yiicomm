@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "40c211f4153d6197611f76c9dfce8a22",
+    "hash": "ca634c74441ad4858a48c1a591e0ea13",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -127,16 +127,16 @@
         },
         {
             "name": "bower-asset/jquery.inputmask",
-            "version": "3.1.32",
+            "version": "3.1.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobinHerbots/jquery.inputmask.git",
-                "reference": "bb776eb7e7be594fa77d5598e6f89d96029a8bac"
+                "reference": "0c6ce85c1bc12e81ecb0df62fbc62db116b7b53d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobinHerbots/jquery.inputmask/zipball/bb776eb7e7be594fa77d5598e6f89d96029a8bac",
-                "reference": "bb776eb7e7be594fa77d5598e6f89d96029a8bac",
+                "url": "https://api.github.com/repos/RobinHerbots/jquery.inputmask/zipball/0c6ce85c1bc12e81ecb0df62fbc62db116b7b53d",
+                "reference": "0c6ce85c1bc12e81ecb0df62fbc62db116b7b53d",
                 "shasum": ""
             },
             "require": {
@@ -229,7 +229,8 @@
                     ".travis.yml",
                     "test/"
                 ]
-            }
+            },
+            "time": "2014-10-10 13:44:50"
         },
         {
             "name": "cebe/markdown",
@@ -388,12 +389,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/bootstrap-fileinput.git",
-                "reference": "7a9161d1cb0db5cd25a63fd18ae5ef1397356e79"
+                "reference": "b4485c41d6da70abcaffd561651ad057169a01d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/7a9161d1cb0db5cd25a63fd18ae5ef1397356e79",
-                "reference": "7a9161d1cb0db5cd25a63fd18ae5ef1397356e79",
+                "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/b4485c41d6da70abcaffd561651ad057169a01d1",
+                "reference": "b4485c41d6da70abcaffd561651ad057169a01d1",
                 "shasum": ""
             },
             "type": "library",
@@ -425,7 +426,7 @@
                 "preview",
                 "upload"
             ],
-            "time": "2014-10-13 18:52:56"
+            "time": "2014-10-15 18:46:14"
         },
         {
             "name": "kartik-v/bootstrap-star-rating",
@@ -795,12 +796,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-widgets.git",
-                "reference": "c5438db49f02f29328f5e8fafcab857f19acf2fe"
+                "reference": "8a90b7066622b295fe6b4669309ad8b1f348704f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-widgets/zipball/c5438db49f02f29328f5e8fafcab857f19acf2fe",
-                "reference": "c5438db49f02f29328f5e8fafcab857f19acf2fe",
+                "url": "https://api.github.com/repos/kartik-v/yii2-widgets/zipball/8a90b7066622b295fe6b4669309ad8b1f348704f",
+                "reference": "8a90b7066622b295fe6b4669309ad8b1f348704f",
                 "shasum": ""
             },
             "require": {
@@ -834,7 +835,7 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2014-10-14 08:00:14"
+            "time": "2014-10-15 13:14:24"
         },
         {
             "name": "miloschuman/yii2-highcharts-widget",
@@ -1029,12 +1030,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "4b46a68dfbddcba32b94c49821e505aa3e1ef1c9"
+                "reference": "232701b45b343cccae89fa7ca192805a5e9a5f1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/4b46a68dfbddcba32b94c49821e505aa3e1ef1c9",
-                "reference": "4b46a68dfbddcba32b94c49821e505aa3e1ef1c9",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/232701b45b343cccae89fa7ca192805a5e9a5f1a",
+                "reference": "232701b45b343cccae89fa7ca192805a5e9a5f1a",
                 "shasum": ""
             },
             "require": {
@@ -1109,7 +1110,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2014-10-14 13:36:43"
+            "time": "2014-10-15 13:41:40"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -1464,12 +1465,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "5c2ef58d2b6855a674c0bd16701cd49c90cb965d"
+                "reference": "f2cde70dc8d4571b5c2de8c0a71e4a99a464305d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/5c2ef58d2b6855a674c0bd16701cd49c90cb965d",
-                "reference": "5c2ef58d2b6855a674c0bd16701cd49c90cb965d",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/f2cde70dc8d4571b5c2de8c0a71e4a99a464305d",
+                "reference": "f2cde70dc8d4571b5c2de8c0a71e4a99a464305d",
                 "shasum": ""
             },
             "require": {
@@ -1503,7 +1504,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2014-10-13 21:58:38"
+            "time": "2014-10-15 08:16:41"
         },
         {
             "name": "yiisoft/yii2-faker",
@@ -1611,7 +1612,12 @@
         "miloschuman/yii2-highcharts-widget": 20,
         "kartik-v/yii2-password": 20,
         "pfarrer/yii2-email-obfuscator": 20,
-        "philippfrenzel/yii2fullcalendar": 20
+        "philippfrenzel/yii2fullcalendar": 20,
+        "bower-asset/jquery": 0,
+        "bower-asset/bootstrap": 0,
+        "bower-asset/jquery-ui": 0,
+        "bower-asset/jquery.inputmask": 0,
+        "bower-asset/punycode": 0
     },
     "prefer-stable": false,
     "platform": {
