@@ -12,15 +12,6 @@ return array (
       '@kartik/social' => $vendorDir . '/kartik-v/yii2-social',
     ),
   ),
-  'kartik-v/yii2-widgets' => 
-  array (
-    'name' => 'kartik-v/yii2-widgets',
-    'version' => '9999999-dev',
-    'alias' => 
-    array (
-      '@kartik/widgets' => $vendorDir . '/kartik-v/yii2-widgets',
-    ),
-  ),
   'kartik-v/yii2-datecontrol' => 
   array (
     'name' => 'kartik-v/yii2-datecontrol',
@@ -102,15 +93,6 @@ return array (
       '@yii/bootstrap' => $vendorDir . '/yiisoft/yii2-bootstrap',
     ),
   ),
-  'yiisoft/yii2-debug' => 
-  array (
-    'name' => 'yiisoft/yii2-debug',
-    'version' => '9999999-dev',
-    'alias' => 
-    array (
-      '@yii/debug' => $vendorDir . '/yiisoft/yii2-debug',
-    ),
-  ),
   'yiisoft/yii2-gii' => 
   array (
     'name' => 'yiisoft/yii2-gii',
@@ -136,6 +118,24 @@ return array (
     'alias' => 
     array (
       '@miloschuman/highcharts' => $vendorDir . '/miloschuman/yii2-highcharts-widget/src',
+    ),
+  ),
+  'yiisoft/yii2-debug' => 
+  array (
+    'name' => 'yiisoft/yii2-debug',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@yii/debug' => $vendorDir . '/yiisoft/yii2-debug',
+    ),
+  ),
+  'kartik-v/yii2-widgets' => 
+  array (
+    'name' => 'kartik-v/yii2-widgets',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@kartik/widgets' => $vendorDir . '/kartik-v/yii2-widgets',
     ),
   ),
 );
